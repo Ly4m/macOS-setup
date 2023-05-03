@@ -71,6 +71,7 @@ I use [Astrovim](https://github.com/AstroNvim/AstroNvim) as my configuration.
 
 It is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins.
 
+To install : https://github.com/AstroNvim/AstroNvim#%EF%B8%8F-installation
 
 ### JetBrains Toolbox  ( [website](https://www.jetbrains.com/toolbox-app/) )
 
