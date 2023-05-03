@@ -1,11 +1,42 @@
 # My Personal mac setup
 
-<img src="images/nord_theme.png"/>
+## Settings
+
+- Display
+	- [ ] More space
+	- [ ] disable true tone in case of color work
+- Trackpad
+	- [ ] increase tracking speed
+	- [ ] enable tap to click 
+- Accesibility
+	- [ ] pointer control -> trackpad options -> use trackpad for dragging -> 3 fingers
 
 
-## [Homebrew](https://brew.sh)
+## Terminal
 
-Well known packet manager for macOS
+I prefer to use another terminal emulator instead of the default one for various reason.
+At the moment I'm using Kitty for its performances but iterm2 is a strong option.
+
+### Kitty ( [website](https://sw.kovidgoyal.net/kitty/) )
+
+GPU based, really good performances and allow for ligatures.	
+
+To install : https://sw.kovidgoyal.net/kitty/binary/
+
+### Iterm2 ( [website](https://www.iterm2.com/) )
+
+Just better than the default Terminal with a lot more feature.
+
+To install you can use Homebrew : 
+```bash
+ brew cask install iterm2
+```
+
+## Package manager
+
+### Homebrew ( [website](https://brew.sh) )
+
+Well known packet manager for macOS, it allows you to easily install and manage application on your Mac.
 
 Simply install by pasting the following in your terminal :
 
@@ -13,22 +44,11 @@ Simply install by pasting the following in your terminal :
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-## The Terminal
-
-### [Iterm 2](https://www.iterm2.com/) 
-
-Just better than the default Terminal
-
-To install you can use Homebrew : 
-```bash
- brew cask install iterm2
-```
-
-### ZSH
+## ZSH
 
 macOS now already ships with zsh wich is a highly customizable shell designed to be interactive
 
-### [Oh My Zsh](https://ohmyz.sh/)
+### Oh My ZSH ( [website](https://ohmyz.sh/) )
 
 ZSH configuration manager
 
@@ -38,66 +58,24 @@ To install simply paste this in your terminal :
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-#### Plugins
+## Tooling
 
-A collection of my favourites plugins for zsh
+### NeoVim ( [NeoVIM](https://github.com/neovim/neovim) ) 
 
-- [Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-- [Auto Suggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
-- [Fuzzy finder](https://github.com/junegunn/fzf)
-	- CTRL+R to search commands
-	- CTRL+T to search files
-- [Z](https://github.com/agkozak/zsh-z)
+Like VIM but better. 
 
 
-#### Pimp my Terminal
+#### Neovim configuration 
 
-- [PowerLevel 10K Theme](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
-- [Colors](https://iterm2colorschemes.com/)
+I use [Astrovim](https://github.com/AstroNvim/AstroNvim) as my configuration.
 
-### [NeoVIM](https://github.com/neovim/neovim)
-
-Like VIM but even more extensible 
-
-Plugin manager:  [Vim Plug](https://github.com/junegunn/vim-plug)
-
-A collection of my vim plugin
-- 'arcticicestudio/nord-vim'	
-- 'scrooloose/nerdTree'
-- 'ctrlpvim/ctrlp.vim'
-- 'ryanoasis/vim-devicons'
-- 'airblade/vim-gitgutter'
-- 'itchyny/lightline.vim'
-- 'junegunn/fzf'
+It is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins.
 
 
-### [BAT](https://github.com/sharkdp/bat)
+### JetBrains Toolbox  ( [website](https://www.jetbrains.com/toolbox-app/) )
 
-Like cat but better and written in Rust !
+To manage JetBrains tools ( install, update, ect 
 
-```bash
-brew install bat
-```
+### Git and Gitkraken ( [website](https://www.gitkraken.com) )
 
-### [EXA](https://github.com/ogham/exa)
-
-An alternative to ls written in Rust !
-
-```bash
-brew install exa
-```
-I also like to fully replace ls by exa so I use the following aliases : 
-
-```bash
-alias l='exa'
-alias la='exa -la'
-alias ls='exa'
-```
-
-### [Ripgrep](https://github.com/BurntSushi/ripgrep)
-
-An alternative to grep written in (you guessed it :D ) Rust !
-
-```bash
-brew install ripgrep
-```
+Gitkraken is my go to tool to mange my git repositories.
