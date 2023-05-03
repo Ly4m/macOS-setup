@@ -1,0 +1,26 @@
+theme = light:GruvboxLightHard,dark:GruvboxDarkHard
+
+#background-opacity = 0.80
+#background-blur-radius = 20
+
+# Font
+font-family  = "JetBrainsMono Nerd Font Mono"
+font-size    = 15
+cursor-style = block
+cursor-style-blink = false
+cursor-invert-fg-bg = true
+
+macos-titlebar-style = hidden
+mouse-hide-while-typing = true
+
+confirm-close-surface = false
+window-decoration = true
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+auto-update = check
+auto-update-channel = stable
+
+shell-integration-features = no-cursor
+copy-on-select = clipboard
