@@ -1,0 +1,23 @@
+# Fonts
+cask "font-jetbrains-mono-nerd-font"
+
+brew "neovim"
+brew "starship" # prompt
+
+# terminal utilities (modern drop-in replacements)
+brew "ripgrep" # Content search (faster than grep)
+brew "fd" # File search by name (friendlier than find)
+brew "zoxide" # Smarter directory jumping (better than cd)
+brew "eza" # Improved ls with icons/tree and git info
+brew "bat" # cat with syntax highlighting and paging
+brew "fzf" # fuzzy finder (press-to-search)
+brew "jq" # JSON CLI
+brew "yq" # YAML CLI
+brew "dust" # du alternative (disk usage)
+brew "gping" # ping with graph
+brew "btop" # resource monitor
+brew "httpie" # Nice http request tool
+
+# Languages related
+brew "fnm" # Node.js version manager
+brew "pnpm"

@@ -1,0 +1,4 @@
+# One option per line (same as CLI flags)
+--theme="gruvbox-dark"
+--style="numbers,changes,header"
+--pager="less -FRX"
