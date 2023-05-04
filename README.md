@@ -127,3 +127,7 @@ Gitkraken is my go to tool to mange my git repositories.
 
 I mainly use [Docker Desktop](https://www.docker.com/products/docker-desktop/) but for some case where legal restrictions prevent the use of this tool I recomemnd using [Rancher Desktop](https://rancherdesktop.io) (without the kubernetes part)
 
+## Node version manager
+
+To manage my node version accross project I use [fnm](https://github.com/Schniz/fnm) which works akin to nvm but with better performance.
+It is written in Rust, and I like Rust.
